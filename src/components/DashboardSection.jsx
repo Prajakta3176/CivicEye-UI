@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import MapComponent from "./MapComponent";
+import PieChartComponent from "./PieChartComponent";
 
 const stats = [
   { title: "Total Reports", value: 1423, color: "bg-blue-100 text-blue-800" },
@@ -56,11 +58,13 @@ const DashboardSection = () => {
           className="grid md:grid-cols-2 gap-8 items-center justify-center max-w-5xl mx-auto"
         >
           <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center text-gray-500">
-            📈 Graph Placeholder (e.g., Bar or Pie Chart)
+            {/* 📈 Graph Placeholder (e.g., Bar or Pie Chart) */}
+            <PieChartComponent/>
           </div>
 
-          <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center text-gray-500">
-            🗺️ Map Preview (e.g., with markers)
+          <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center text-gray-500 overflow-hidden">
+            {/* 🗺️ Map Preview (e.g., with markers) */}
+            <MapComponent/>
           </div>
         </motion.div>
 
