@@ -15,16 +15,16 @@ const HeroSection = () => {
             Use CivicEye to report issues like potholes, streetlight outages,
             and more. Help build a transparent, responsive city.
           </p>
-          <div className="space-x-4">
+          <div className="space-x-4 flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
             <a
               href="#report"
-              className="bg-yellow-400 text-black px-6 py-2 rounded-md font-semibold hover:bg-yellow-300"
+              className="bg-yellow-400 text-black px-6 py-2 rounded-md font-semibold w-[200px] text-center hover:bg-yellow-300"
             >
               Report Now
             </a>
             <a
               href="#dashboard"
-              className="border border-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-[#0B3D91]"
+              className="border border-white px-6 py-2 rounded-md font-semibold w-[200px] text-center hover:bg-white hover:text-[#0B3D91]"
             >
               View Dashboard
             </a>

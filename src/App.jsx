@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
+import PastWork from './components/PastWork'
+import DashboardSection from './components/DashboardSection'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <div>
         <Navbar/>
         <HeroSection/>
+        <PastWork/>
+        <DashboardSection/>
       </div>
     </>
   )
