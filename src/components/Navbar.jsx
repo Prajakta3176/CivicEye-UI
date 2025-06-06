@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <header className="bg-[#0B3D91] text-white shadow-md fixed top-0 w-full z-50">
+    <header className="bg-[#0B3D91] text-white z-100 shadow-md fixed top-0 w-full z-50">
       {/* Top Strip for Language/Login */}
       <div className="flex justify-end items-center text-sm px-4 py-1 bg-[#002B5B]">
         <button className="hover:underline mr-4">हिन्दी</button>
